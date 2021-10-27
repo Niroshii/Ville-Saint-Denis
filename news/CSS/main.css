@@ -53,61 +53,167 @@ li {
   text-transform: uppercase;
 }
 /* PARTIE BOITE NEWS */
-.boxnews {
-  position: absolute;
-  left: 30px;
-  border: solid 2px black;
-  border-radius: 5px;
-  height: 200px;
-  width: 900px;
-  top: 300px;
-}
-.boxnews2 {
-  position: absolute;
-  left: 30px;
-  border: solid 2px black;
-  border-radius: 5px;
-  height: 200px;
-  width: 900px;
-  top: 525px;
-}
-.boxnews3 {
-  position: absolute;
-  left: 30px;
-  border: solid 2px black;
-  border-radius: 5px;
-  height: 200px;
-  width: 900px;
-  top: 750px;
-}
 .activités {
   position: absolute;
-  border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 300px;
+  width: 400px;
+  right: 100px;
+  top: 200px;
 }
 .activités1 {
   position: absolute;
-  border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 525px;
+  width: 400px;
+  right: 100px;
+  top: 450px;
 }
 .activités2 {
   position: absolute;
-  border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 750px;
+  width: 400px;
+  right: 100px;
+  top: 700px;
+}
+
+.activités3 {
+  position: absolute;
+  border-radius: 4px;
+  height: 200px;
+  width: 400px;
+  right: 100px;
+  top: 950px;
+}
+.activités4 {
+  position: absolute;
+  border-radius: 4px;
+  height: 200px;
+  width: 400px;
+  right: 100px;
+  top: 1200px;
+}
+.bois {
+  position: absolute;
+  left: 30px;
+  border-radius: 10px;
+  height: 200px;
+  width: 900px;
+  top: 200px;
 }
 .chasse {
   position: absolute;
-  top: 0px;
+  left: 30px;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 450px;
+}
+.banque {
+  position: absolute;
+  left: 30px;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 700px;
+}
+.forêt {
+  position: absolute;
+  left: 30px;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 950px;
+}
+.ville {
+  position: absolute;
+  left: 30px;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 1200px;
+}
+.lien1 {
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 0px;
+  width: 300px;
+  right: 1175px;
+  top: 350px;
+  border-color: white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+
+.lien2 {
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 0px;
+  width: 300px;
+  right: 1175px;
+  top: 600px;
+  border-color: white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien3 {
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 0px;
+  width: 300px;
+  right: 1175px;
+  top: 850px;
+  border-color: white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien4 {
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 0px;
+  width: 300px;
+  right: 1175px;
+  top: 1100px;
+  border-color: white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien5 {
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 0px;
+  width: 300px;
+  right: 1175px;
+  top: 1350px;
+  border-color: white;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien1:hover,
+.lien2:hover,
+.lien3:hover,
+.lien4:hover,
+.lien5:hover {
+  color: black;
 }

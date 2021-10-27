@@ -53,59 +53,13 @@ li {
   text-transform: uppercase;
 }
 
-/*PARTIE BOX AFFICHE*/
 
-.boxaffiche1{
+.boxarticle {
   position: absolute;
-  left: 135px;
-  border: solid 3px black;
-  border-radius: 4px;
-  height: 250px;
-  width: 250px;
+  left: 30px;
+  border: solid 2px black;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
   top: 200px;
-}
-.boxaffiche2{
-  position: absolute;
-  right: 325px;
-  border: solid 3px black;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  top: 200px;
-}
-.boxaffiche3{
-  position: absolute;
-  left: 598px;
-  border: solid 3px black;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  top: 200px;
-}
-.boxaffiche4{
-  position: absolute;
-  left: 598px;
-  border: solid 3px black;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  top: 600px;
-}
-.boxaffiche5{
-  position: absolute;
-  left: 135px;
-  border: solid 3px black;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  top: 600px;
-}
-.boxaffiche6{
-  position: absolute;
-  right: 325px;
-  border: solid 3px black;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  top: 600px;
 }

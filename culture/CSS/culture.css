@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -44,11 +50,130 @@ li {
 }
 .titreh1 {
   position: absolute;
-  left: 650px;
+  left: 680px;
   top: 30px;
   font-size: 2em;
   font-weight: 800;
   color: black;
   line-height: 1em;
   text-transform: uppercase;
+}
+.slider {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  right: 17%;
+  top: 20%;
+  overflow: hidden;
+}
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+.slide img {
+  width: 800px;
+  height: 500px;
+}
+/*CSS for manual slide navigation*/
+.navigation-manual {
+  position: absolute;
+  width: 800px;
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background: #fff;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+/* CSS for automatic navigation*/
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+.navigation-auto div {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #fff;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #fff;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #fff;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #fff;
+}
+
+.h21 {
+  position: absolute;
+  left: 320px;
+  top: 610px;
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.cabaret {
+  margin-left: 19.8%;
+  margin-top: 600px;
+  border-radius: 10px;
+}
+.p1 {
+  position: absolute;
+  left: 320px;
+  top: 690px;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.ensavoirplus {
+  color: #fff;
+}
+.ensavoirplus:hover {
+  color: black;
 }
