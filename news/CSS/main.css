@@ -60,7 +60,7 @@ li {
   border-radius: 5px;
   height: 200px;
   width: 900px;
-  top: 300px;
+  top: 200px;
 }
 .boxnews2 {
   position: absolute;
@@ -69,7 +69,7 @@ li {
   border-radius: 5px;
   height: 200px;
   width: 900px;
-  top: 525px;
+  top: 450px;
 }
 .boxnews3 {
   position: absolute;
@@ -78,36 +78,131 @@ li {
   border-radius: 5px;
   height: 200px;
   width: 900px;
-  top: 750px;
+  top: 700px;
+}
+.boxnews4 {
+  position: absolute;
+  left: 30px;
+  border: solid 2px black;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 950px;
+}
+.boxnews5 {
+  position: absolute;
+  left: 30px;
+  border: solid 2px black;
+  border-radius: 5px;
+  height: 200px;
+  width: 900px;
+  top: 1200px;
 }
 .activités {
   position: absolute;
   border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 300px;
+  width: 400px;
+  right: 100px;
+  top: 200px;
 }
 .activités1 {
   position: absolute;
   border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 525px;
+  width: 400px;
+  right: 0px;
+  top: 250px;
 }
 .activités2 {
   position: absolute;
   border: solid 2px black;
   border-radius: 4px;
   height: 200px;
-  width: 200px;
-  right: 200px;
+  width: 400px;
+  right: 0px;
+  top: 500px;
+}
+
+  .activités3 {
+  position: absolute;
+  border: solid 2px black;
+  border-radius: 4px;
+  height: 200px;
+  width: 400px;
+  right: 0px;
   top: 750px;
 }
+.activités4 {
+  position: absolute;
+  border: solid 2px black;
+  border-radius: 4px;
+  height: 200px;
+  width: 400px;
+  right: 0px;
+  top: 1000px;
+  }
+
 .chasse {
   position: absolute;
   top: 0px;
 }
+
+.lien1 {
+  position: absolute;
+  Border:  solid 1px black; 
+  border-radius:  4px;
+  height:  0px;
+  width: 300px;
+  right: 1075px;
+  top:  150px; 
+  border-color:  white;
+  color:  white;
+}
+
+.lien2{
+  position: absolute;
+  Border:  solid 1px black; 
+  border-radius:  4px;
+  height:  0px;
+  width: 300px;
+  right: 1075px;
+  top:  400px; 
+  border-color:  white;
+  color:  white;
+}
+.lien3{
+  position: absolute;
+  Border:  solid 1px black; 
+  border-radius:  4px;
+  height:  0px;
+  width: 300px;
+  right: 1075px;
+  top:  650px; 
+  border-color:  white;
+  color:  white;
+}  
+.lien4{
+  position: absolute;
+  Border:  solid 1px black; 
+  border-radius:  4px;
+  height:  0px;
+  width: 300px;
+  right: 1075px;
+  top:  900px; 
+  border-color:  white;
+  color:  white;
+}  
+.lien5{
+  position: absolute;
+  Border:  solid 1px black; 
+  border-radius:  4px;
+  height:  0px;
+  width: 300px;
+  right: 1075px;
+  top:  1150px; 
+  border-color:  white;
+  color:  white;
+}  
