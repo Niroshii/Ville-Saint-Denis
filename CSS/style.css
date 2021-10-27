@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --black: #fff;
+  --white: rgb(94, 94, 94);
+}
+.dark {
+  --black: rgb(94, 94, 94);
+  --white: #fff;
+}
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+}
+header .logo {
+  position: relative;
+  display: inline-flex;
+  color: var(--black);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: 1.5s;
+}
+.saintdenislogo {
+  margin-top: -30px;
+  margin-left: -60px;
+}
+.button1 {
+  position: absolute;
+  top: 75%;
+  left: 6.7%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  top: -30px;
+  padding: 30px;
+  font-size: 10.5px;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  border: 5px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+.button:hover /*SURVOL DU BOUTON*/ {
+  box-shadow: 0 5px 50px 0 #fff inset, 0 5px 50px 0 #fff,
+    0 5px 50px 0 #fff inset, 0 5px 50px 0 #fff;
+  text-shadow: 0 0 5px #fff;
+}
+.righSide {
+  display: flex;
+}
+.btns {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btns ion-icon {
+  font-size: 1.5em;
+  color: var(--black);
+  transition: 0.5s;
+}
+.btns.menuToggle ion-icon {
+  font-size: 3em;
+}
+.btns ion-icon:nth-child(2) {
+  display: none;
+}
+.btns.active ion-icon:nth-child(2) {
+  display: block;
+}
+.btns.active ion-icon:nth-child(1) {
+  display: none;
+}
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 70px;
+  width: 100%;
+  height: 100;
+  object-fit: cover;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100;
+  z-index: 2;
+  user-select: none;
+  mix-blend-mode: screen;
+}
+.dark .mask {
+  filter: invert(1);
+  mix-blend-mode: multiply;
+}
+.main {
+  position: relative;
+  z-index: 3;
+  color: var(--black);
+}
+h3 {
+  position: absolute;
+  left: 110px;
+  top: 150px;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+h2 {
+  position: absolute;
+  left: 150px;
+  top: 210px;
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+p {
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+  transition: 1.5s;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 130%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--white);
+  z-index: 4;
+  transition: 0.5s;
+}
+.navigation.active {
+  left: 0;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation li a {
+  display: inline-flex;
+  margin: 5px 0;
+  font-size: 1.35em;
+  text-decoration: none;
+  color: var(--black);
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+.navigation li a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+.copyrightText {
+  position: absolute;
+  left: 100px;
+  top: 700px;
+  z-index: 4;
+  font-weight: 500;
+  font-size: 0.7em;
+  color: var(--black);
+  transition: 1.5s;
+}
+.sci {
+  position: absolute;
+  right: 100px;
+  bottom: 120px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.75em;
+  transition: 1.5s;
+}
