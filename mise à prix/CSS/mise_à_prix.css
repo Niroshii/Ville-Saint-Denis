@@ -55,7 +55,7 @@ li {
 
 /*PARTIE BOX AFFICHE*/
 
-.boxaffiche1{
+.boxaffiche1 {
   position: absolute;
   left: 135px;
   border: solid 3px black;
@@ -64,7 +64,7 @@ li {
   width: 250px;
   top: 200px;
 }
-.boxaffiche2{
+.boxaffiche2 {
   position: absolute;
   right: 325px;
   border: solid 3px black;
@@ -73,7 +73,7 @@ li {
   width: 250px;
   top: 200px;
 }
-.boxaffiche3{
+.boxaffiche3 {
   position: absolute;
   left: 598px;
   border: solid 3px black;
@@ -82,7 +82,7 @@ li {
   width: 250px;
   top: 200px;
 }
-.boxaffiche4{
+.boxaffiche4 {
   position: absolute;
   left: 598px;
   border: solid 3px black;
@@ -91,7 +91,7 @@ li {
   width: 250px;
   top: 600px;
 }
-.boxaffiche5{
+.boxaffiche5 {
   position: absolute;
   left: 135px;
   border: solid 3px black;
@@ -100,7 +100,7 @@ li {
   width: 250px;
   top: 600px;
 }
-.boxaffiche6{
+.boxaffiche6 {
   position: absolute;
   right: 325px;
   border: solid 3px black;
@@ -108,4 +108,119 @@ li {
   height: 250px;
   width: 250px;
   top: 600px;
+}
+/* FOOTER  */
+.blocfooter {
+  position: absolute;
+  top: 140%;
+  width: 1519px;
+  background: black;
+}
+.logo {
+  position: absolute;
+  top: 10%;
+  right: 7.5%;
+}
+.copyright-text {
+  position: absolute;
+  top: 80%;
+  right: 3%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.copyright-text a {
+  color: white;
+}
+.copyright-text a:hover {
+  color: rgb(207, 141, 118);
+}
+.col {
+  width: 400px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
 }

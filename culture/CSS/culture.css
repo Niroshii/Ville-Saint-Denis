@@ -282,9 +282,6 @@ li {
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
 }
-.clearfix {
-  clear: both;
-}
 @media only screen and (min-width: 1280px) {
   .contain {
     width: 1200px;
