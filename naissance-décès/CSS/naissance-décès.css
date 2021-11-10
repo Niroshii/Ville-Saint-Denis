@@ -10,7 +10,7 @@ body {
 .navbarbox {
   position: absolute;
   background: #fff;
-  height: 130px;
+  height: 250px;
   width: 1519px;
 }
 .shadowboxnavbar {
@@ -45,7 +45,7 @@ li {
 .titreh1 {
   position: absolute;
   left: 650px;
-  top: 30px;
+  top: 5px;
   font-size: 2em;
   font-weight: 800;
   color: black;
@@ -54,48 +54,83 @@ li {
 }
 .boxnews {
   position: absolute;
-  left: 30px;
-  border: solid 2px black;
-  border-radius: 5px;
-  height: 250px;
+  left: 40px;
+  border: solid 2px blue;
+  border-radius: 84px;
+  height: 1600px;
   width: 1400px;
-  top: 300px;
-}
-.boxnews h1 {
+  top: 250px;
   font-size: 3em;
 }
+.premiereimage {
+  width: 250px;
+}
+.deuxiemeimage {
+  width: 250px;
+}
+.troisiemeimage {
+  width: 250px;
+}
+.quatriemeimage {
+  width: 250px;
+}
+.navboxN {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+p{
+  font-size:30px; 
+}
+
 .boxnews2 {
   position: absolute;
-  left: 30px;
-  border: solid 2px black;
-  border-radius: 5px;
-  height: 250px;
+  left: 40px;
+  border: solid 3px red;
+  border-radius: 84px;
+  height: 1300px;
   width: 1400px;
-  top: 600px;
+  top: 2000px;
+  font-size: 18px;
+  background-image: ;
 }
-.boxnews2 h2 {
-  font-size: 3em;
+.fondcimetiere{
+  width: 1400px;
+  height: 400px;
+}
+.navboxD {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+
 }
 .boxnews3 {
   position: absolute;
-  left: 30px;
+  left: 40px;
   border: solid 2px black;
-  border-radius: 5px;
-  height: 250px;
+  border-radius: 84px;
+  height: 1800px;
   width: 1400px;
-  top: 900px;
+  top: 3450px;
+  font-size: 2em;
 }
-.boxnews3 h3 {
-  font-size: 3em;
+.disparu {
+  width: 960px;
+  height: 400px;
 }
-.bebe {
-  position: absolute;
-  top: 340px;
+.navboxD {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
 }
+
+
+
+
 /* FOOTER  */
 .blocfooter {
   position: absolute;
-  top: 170%;
+  top: 500%;
   width: 1519px;
   background: black;
 }
