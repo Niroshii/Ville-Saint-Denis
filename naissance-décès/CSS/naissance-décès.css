@@ -79,10 +79,9 @@ li {
   font-weight: bold;
   text-align: center;
 }
-p{
-  font-size:30px; 
+p {
+  font-size: 30px;
 }
-
 .boxnews2 {
   position: absolute;
   left: 40px;
@@ -92,9 +91,9 @@ p{
   width: 1400px;
   top: 2000px;
   font-size: 18px;
-  background-image: ;
+  /* background-image: ; */
 }
-.fondcimetiere{
+.fondcimetiere {
   width: 1400px;
   height: 400px;
 }
@@ -102,7 +101,6 @@ p{
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-
 }
 .boxnews3 {
   position: absolute;
@@ -123,10 +121,6 @@ p{
   font-weight: bold;
   text-align: center;
 }
-
-
-
-
 /* FOOTER  */
 .blocfooter {
   position: absolute;
