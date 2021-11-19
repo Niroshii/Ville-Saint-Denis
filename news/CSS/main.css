@@ -7,51 +7,6 @@
 body {
   background-color: #e9edef;
 }
-.navbarbox {
-  position: absolute;
-  background: #fff;
-  height: 130px;
-  width: 1519px;
-}
-.shadowboxnavbar {
-  position: absolute;
-  background: rgb(210, 211, 212);
-  top: 131px;
-  height: 2px;
-  width: 1519px;
-}
-.navigationbar {
-  position: absolute;
-  top: 80px;
-  left: 300px;
-}
-ul,
-li,
-a {
-  text-decoration: none;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-}
-a:hover {
-  color: rgb(207, 141, 118);
-}
-ul,
-li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px;
-}
-.titreh1 {
-  position: absolute;
-  left: 650px;
-  top: 30px;
-  font-size: 2em;
-  font-weight: 800;
-  color: black;
-  line-height: 1em;
-  text-transform: uppercase;
-}
 /* PARTIE BOITE NEWS */
 .activités {
   position: absolute;
