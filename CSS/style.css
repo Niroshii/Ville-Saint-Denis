@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+/* font red dead */
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/chinese\ rocks\ rg.otf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-@font-face {
-  font-family: "font-1";
-  src: url(../assets/fonts/chinese\ rocks\ rg.otf);
 }
 header {
   position: absolute;
@@ -24,17 +25,13 @@ header {
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(https://i.ibb.co/HrfVRcx/menu.png);
-  background-repeat: no-repeat;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png) no-repeat center;
   background-size: 30px;
-  background-position: center;
   cursor: pointer;
 }
 .toggle.active {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
+  background: url(https://i.ibb.co/rt3HybH/close.png) no-repeat center;
   background-size: 25px;
-  background-position: center;
   cursor: pointer;
 }
 .showcase {
@@ -46,8 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(../images/homepage/saintdenis.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/homepage/saintdenis.jpg), no-repeat;
   transition: 0.5s;
   z-index: 2;
 }
