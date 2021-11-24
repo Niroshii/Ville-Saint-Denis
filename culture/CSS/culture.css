@@ -5,6 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap");
+@font-face {
+  font-family: "font-1";
+  src: url(/assets/fonts/chinese\ rocks\ rg.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,9 +51,10 @@ li {
 }
 .titreh1 {
   position: absolute;
-  left: 650px;
-  top: 30px;
-  font-size: 2em;
+  left: 660px;
+  top: 20px;
+  font-family: "font-1", sans-serif;
+  font-size: 3rem;
   font-weight: 800;
   color: black;
   line-height: 1em;
@@ -150,6 +155,7 @@ body {
   position: absolute;
   left: 320px;
   top: 610px;
+  font-family: "font-1", sans-serif;
   font-size: 2.5em;
   font-weight: 800;
   color: #fff;
@@ -176,7 +182,7 @@ body {
   color: #fff;
 }
 .ensavoirplus:hover {
-  color: black;
+  color: rgb(207, 141, 118);
 }
 .musée {
   margin-left: 19.8%;
@@ -187,6 +193,7 @@ body {
   position: absolute;
   left: 320px;
   top: 960px;
+  font-family: "font-1", sans-serif;
   font-size: 2.5em;
   font-weight: 800;
   color: black;
@@ -208,12 +215,45 @@ body {
   color: black;
 }
 .ensavoirplus1:hover {
+  color: rgb(207, 141, 118);
+}
+.cheval {
+  margin-left: 19.8%;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.h23 {
+  position: absolute;
+  left: 320px;
+  top: 1310px;
+  font-family: "font-1", sans-serif;
+  font-size: 2.5em;
+  font-weight: 800;
   color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.p3 {
+  position: absolute;
+  left: 320px;
+  top: 1375px;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.ensavoirplus2 {
+  color: #fff;
+}
+.ensavoirplus2:hover {
+  color: rgb(207, 141, 118);
 }
 /* FOOTER  */
 .blocfooter {
   position: absolute;
-  top: 170%;
+  top: 220%;
   width: 1519px;
   background: black;
 }
