@@ -4,11 +4,14 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: #e9edef;
+}
 .navbarbox {
   position: absolute;
   background: #fff;
-  height: 130px;
-  width: 1519px;
+  height: 132px;
+  width: 2184px;
 }
 .shadowboxnavbar {
   position: absolute;
@@ -20,7 +23,7 @@
 .navigationbar {
   position: absolute;
   top: 80px;
-  left: 300px;
+  left: 385px;
 }
 ul,
 li,
@@ -28,7 +31,6 @@ a {
   text-decoration: none;
   color: black;
   font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
 }
 a:hover {
   color: rgb(207, 141, 118);
@@ -42,32 +44,48 @@ li {
 .titreh1 {
   position: absolute;
   left: 650px;
-  top: 30px;
+  top: 5px;
   font-size: 2em;
   font-weight: 800;
   color: black;
   line-height: 1em;
   text-transform: uppercase;
 }
-
-body {
-  background-color: #e9edef;
+.globale{
+  display: inline-flex;
+  margin: 10px 5px 10px 15px;
+}
+.date{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+.imagegauche{
+  margin-right: 20px;
+}
+.textedroite{
+  font-size: 20px;
+  font-weight: bold;
 }
 .boxnews {
-  position: absolute;
+  position: relative;
   left: 40px;
+  right: 80px;
   border: solid 2px blue;
-  border-radius: 84px;
-  height: 1600px;
-  width: 1400px;
-  top: 250px;
-  font-size: 3em;
+  border-radius: 30px;
+  height: 904x;
+  width: 904px;
+  top: 180px;
+  margin: 0 auto;
 }
 .premiereimage {
   width: 250px;
 }
 .deuxiemeimage {
   width: 250px;
+  text-indent: 35px;
 }
 .troisiemeimage {
   width: 250px;
@@ -80,22 +98,21 @@ body {
   font-weight: bold;
   text-align: center;
 }
-p {
-  font-size: 30px;
-}
 .boxnews2 {
-  position: absolute;
+  position: relative;
   left: 40px;
   border: solid 3px red;
-  border-radius: 84px;
+  border-radius: 24px;
   height: 1300px;
-  width: 1400px;
-  top: 2000px;
+  width: 900px;
+  top: 280px;
   font-size: 18px;
+  margin: 0 auto;
+  
   /* background-image: ; */
 }
 .fondcimetiere {
-  width: 1400px;
+  width: 325px;
   height: 400px;
 }
 .navboxD {
@@ -104,17 +121,19 @@ p {
   text-align: center;
 }
 .boxnews3 {
-  position: absolute;
+  position: relative;
   left: 40px;
   border: solid 2px black;
-  border-radius: 84px;
-  height: 1800px;
-  width: 1400px;
-  top: 3450px;
-  font-size: 2em;
+  border-radius: 30px;
+  height: 1200px;
+  width: 900px;
+  top: 385px;
+  font-size: 25px;
+  text-indent: 35px;
+  margin: 0 auto;
 }
 .disparu {
-  width: 960px;
+  width: 600px;
   height: 400px;
 }
 .navboxD {
@@ -125,7 +144,7 @@ p {
 /* FOOTER  */
 .blocfooter {
   position: absolute;
-  top: 500%;
+  top: 650%;
   width: 1519px;
   background: black;
 }
@@ -156,6 +175,10 @@ p {
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
+/*footer{
+  position: absolute;
+  bottom: 0;
+}*/
 .footer .col h1 {
   margin: 0;
   padding: 0;
