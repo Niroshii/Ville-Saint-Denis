@@ -53,7 +53,8 @@ li {
 }
 .globale{
   display: inline-flex;
-  margin: 10px 5px 10px 15px;
+  margin: 10px 15px 10px 15px;
+  background-color: white;
 }
 .date{
   text-align: center;
@@ -69,12 +70,18 @@ li {
   font-size: 20px;
   font-weight: bold;
 }
+.textedroitedroite{
+  margin: 135px 15px 18px -145px;
+  background-color:rgb(189, 139, 85); 
+  text-align: center;
+
+}
 .boxnews {
   position: relative;
   left: 40px;
   right: 80px;
-  border: solid 2px blue;
-  border-radius: 30px;
+  border: solid 3px black;
+  border-radius: 24px;
   height: 904x;
   width: 904px;
   top: 180px;
@@ -101,7 +108,7 @@ li {
 .boxnews2 {
   position: relative;
   left: 40px;
-  border: solid 3px red;
+  border: solid 3px black;
   border-radius: 24px;
   height: 1300px;
   width: 900px;
@@ -114,6 +121,9 @@ li {
 .fondcimetiere {
   width: 325px;
   height: 400px;
+  color:black;
+  background-color:white;
+  background-image:url(images/cimetiere.png);
 }
 .navboxD {
   font-size: 50px;
@@ -123,8 +133,8 @@ li {
 .boxnews3 {
   position: relative;
   left: 40px;
-  border: solid 2px black;
-  border-radius: 30px;
+  border: solid 3px black;
+  border-radius: 24px;
   height: 1200px;
   width: 900px;
   top: 385px;
