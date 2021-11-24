@@ -75,6 +75,7 @@ header {
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  text-shadow: 2px 0px 20px #ffffff;
 }
 .text h3 {
   font-family: "Poppins", sans-serif;
@@ -83,6 +84,7 @@ header {
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
+  text-shadow: 2px 0px 20px #ffffff;
 }
 .text p {
   font-size: 1.1em;
@@ -90,6 +92,7 @@ header {
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+  text-shadow: 2px 0px 20px #ffffff;
 }
 .text a {
   display: inline-block;
@@ -106,6 +109,7 @@ header {
 }
 .text a:hover {
   letter-spacing: 6px;
+  box-shadow: 2px 0px 20px #ffffff;
 }
 .social {
   position: absolute;
