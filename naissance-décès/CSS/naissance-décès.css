@@ -110,21 +110,15 @@ li {
   left: 40px;
   border: solid 3px black;
   border-radius: 24px;
-  height: 1300px;
+  height: 1150px;
   width: 900px;
   top: 280px;
   font-size: 18px;
   margin: 0 auto;
-  
-  /* background-image: ; */
-}
-.fondcimetiere {
-  width: 325px;
-  height: 400px;
-  color:black;
-  background-color:white;
-  background-image:url(images/cimetiere.png);
-}
+  background-image:url(../images/cimetieres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 .navboxD {
   font-size: 50px;
   font-weight: bold;
@@ -141,15 +135,22 @@ li {
   font-size: 25px;
   text-indent: 35px;
   margin: 0 auto;
+  background-image:url(../images/missing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.disparu {
-  width: 600px;
-  height: 400px;
+.data {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  margin: -1px 21px 5px -12px;
 }
-.navboxD {
-  font-size: 50px;
+.liste {
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
+  margin-top: 250px;
 }
 /* FOOTER  */
 .blocfooter {
