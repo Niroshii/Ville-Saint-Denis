@@ -27,7 +27,7 @@
   left: 332px;
 }
 .navigationbar a {
-  font-family: "font-1", sans-serif;
+  font-family: "font-1", "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -64,53 +64,60 @@ body {
 }
 /* PARTIE BOITE NEWS */
 .activités {
-  position: absolute;
+  margin-left: 65.7%;
+  margin-top: -10.8%;
+  padding: 0%;
   border-radius: 4px;
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   right: 100px;
   top: 200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités1 {
-  position: absolute;
+  margin-left: 65.7%;
+  margin-top: 2.5%;
   border-radius: 4px;
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   right: 100px;
   top: 450px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités2 {
-  position: absolute;
+  margin-left: 65.7%;
+  margin-top: 2%;
   border-radius: 4px;
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   right: 100px;
   top: 700px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 
 .activités3 {
-  position: absolute;
+  margin-left: 65.7%;
+  margin-top: 2%;
   border-radius: 4px;
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   right: 100px;
   top: 950px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités4 {
-  position: absolute;
+  margin-left: 65.7%;
+  margin-top: 2%;
   border-radius: 4px;
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 600px;
   right: 100px;
   top: 1200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .bois {
-  position: absolute;
+  margin-left: 1.5%;
+  margin-top: 0%;
   left: 30px;
   border-radius: 10px;
   height: 200px;
@@ -119,7 +126,8 @@ body {
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .chasse {
-  position: absolute;
+  margin-left: -47%;
+  margin-top: 10.7%;
   left: 30px;
   border-radius: 5px;
   height: 200px;
