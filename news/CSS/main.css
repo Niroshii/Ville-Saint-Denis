@@ -4,9 +4,6 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #e9edef;
-}
 .navbarbox {
   position: absolute;
   background: #fff;
@@ -51,6 +48,10 @@ li {
   color: black;
   line-height: 1em;
   text-transform: uppercase;
+}
+
+body {
+  background-color: #e9edef;
 }
 /* PARTIE BOITE NEWS */
 .activités {
@@ -215,7 +216,7 @@ li {
 .lien3:hover,
 .lien4:hover,
 .lien5:hover {
-  color: black;
+  color: rgb(207, 141, 118);
 }
 /* FOOTER  */
 .blocfooter {

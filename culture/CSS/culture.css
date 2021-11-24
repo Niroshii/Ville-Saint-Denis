@@ -10,9 +10,6 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #e9edef;
-}
 .navbarbox {
   position: absolute;
   background: #fff;
@@ -50,13 +47,17 @@ li {
 }
 .titreh1 {
   position: absolute;
-  left: 680px;
+  left: 650px;
   top: 30px;
   font-size: 2em;
   font-weight: 800;
   color: black;
   line-height: 1em;
   text-transform: uppercase;
+}
+
+body {
+  background-color: #e9edef;
 }
 .slider {
   position: absolute;

@@ -1,14 +1,7 @@
-let dayNight = document.querySelector(".dayNight");
-let menuToggle = document.querySelector(".menuToggle");
-let body = document.querySelector("body");
-let navigation = document.querySelector(".navigation");
+const menuToggle = document.querySelector(".toggle");
+const showcase = document.querySelector(".showcase");
 
-dayNight.onclick = function () {
-  body.classList.toggle("dark");
-  dayNight.classList.toggle("active");
-};
-
-menuToggle.onclick = function () {
+menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("active");
-  navigation.classList.toggle("active");
-};
+  showcase.classList.toggle("active");
+});
