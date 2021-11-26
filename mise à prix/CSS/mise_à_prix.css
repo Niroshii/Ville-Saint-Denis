@@ -169,6 +169,7 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+
 /* PARTIE CARD 2 */
 .card2 {
   position: absolute;
@@ -382,6 +383,23 @@ color: red;
   text-shadow: 6px 1px 10px #323232;
   font-size: 18px;
   line-height: 1.4;
+}
+
+.BLOOD5 {
+color: red;  
+}
+.gang h2 {
+position:absolute;  
+margin: 870px 130px 0px;
+}
+.BLOODGANG{
+width:100px;
+margin: 840px 30px;
+}
+.BLOODGANG:hover {
+  -ms-transform : scale(1.5);
+  -webkit-transform:  scale(1.5);
+  transform: scale(1.5);
 }
 
 /*FOOTER*/
