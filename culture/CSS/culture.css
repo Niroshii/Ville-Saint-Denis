@@ -223,6 +223,20 @@ body {
 .ensavoirplus1:hover {
   color: rgb(207, 141, 118);
 }
+.ancre {
+  animation: floating 6s ease-in-out 0s infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
 .cheval {
   margin-left: 19.8%;
   margin-top: 40px;
