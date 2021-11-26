@@ -65,7 +65,7 @@ body {
 /* PARTIE BOITE NEWS */
 .activités {
   position: absolute;
-  border-radius: 5px;
+  border-radius: 4px;
   height: 200px;
   width: 400px;
   right: 350px;
@@ -214,11 +214,76 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
+.lien6 {
+  position: absolute;
+  height: 0px;
+  width: 300px;
+  right: 500px;
+  top: 350px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien7 {
+  position: absolute;
+  height: 0px;
+  width: 300px;
+  right: 500px;
+  top: 600px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien8 {
+  position: absolute;
+  height: 0px;
+  width: 300px;
+  right: 500px;
+  top: 850px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien9 {
+  position: absolute;
+  height: 0px;
+  width: 300px;
+  right: 500px;
+  top: 1100px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+.lien10 {
+  position: absolute;
+  height: 0px;
+  width: 300px;
+  right: 500px;
+  top: 1350px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
 .lien1:hover,
 .lien2:hover,
 .lien3:hover,
 .lien4:hover,
-.lien5:hover {
+.lien5:hover, 
+.lien6:hover,
+.lien7:hover,
+.lien8:hover,
+.lien9:hover,
+.lien10:hover {
   color: rgb(207, 141, 118);
 }
 /*FOOTER*/
