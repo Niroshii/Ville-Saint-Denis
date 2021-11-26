@@ -65,7 +65,7 @@ body {
 /* PARTIE BOITE NEWS */
 .activités {
   position: absolute;
-  border-radius: 4px;
+  border-radius: 5px;
   height: 200px;
   width: 400px;
   right: 350px;
