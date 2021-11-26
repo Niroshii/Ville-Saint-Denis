@@ -139,15 +139,16 @@ li {
 }
 .description {
   position: absolute;
-  left: 310px;
+  left: 265px;
   top: 250px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Nunito", "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 450;
-  color: rgba(0, 0, 0, 0.493);
+  color: rgba(0, 0, 0, 0.418);
   height: 900px;
-  width: 900px;
+  width: 600px;
+  text-align: center;
 }
 .Article {
   position: absolute;
