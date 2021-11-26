@@ -4,33 +4,40 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-color: #e9edef;
+.headerimg {
+  margin: -230px 0 0 0;
+  margin-left: 500px;
+  padding: 0px;
+  top: -90px;
+  left: 499px;
+  height: 300px;
 }
 .navbarbox {
-  position: absolute;
+  padding: 0px;
   background: #fff;
-  height: 132px;
-  width: 2184px;
-}
-.shadowboxnavbar {
-  position: absolute;
-  background: rgb(210, 211, 212);
-  top: 131px;
-  height: 2px;
-  width: 1519px;
+  height: 135px;
+  width: auto;
+  box-shadow: 1px 3px 6px 0px #afafaf;
 }
 .navigationbar {
-  position: absolute;
-  top: 80px;
-  left: 385px;
+  padding: 0px;
+  margin: -120px 0 0 0;
+  margin-left: 247px;
+  top: 100px;
+  left: 332px;
+}
+.navigationbar a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 ul,
 li,
 a {
+  text-align: center;
   text-decoration: none;
   color: black;
-  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 a:hover {
   color: rgb(207, 141, 118);
@@ -41,40 +48,43 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-.titreh1 {
+/* .titreh1 {
   position: absolute;
-  left: 650px;
-  top: 5px;
-  font-size: 2em;
+  left: 660px;
+  top: 20px;
+  font-family: "font-1", sans-serif;
+  font-size: 3rem;
   font-weight: 800;
   color: black;
   line-height: 1em;
   text-transform: uppercase;
+} */
+body {
+  background-color: #e9edef;
 }
-.globale{
+.globale {
   display: inline-flex;
   margin: 10px 15px 10px 15px;
   background-color: white;
 }
-.date{
+.date {
   text-align: center;
   color: red;
   font-weight: bold;
   font-size: 25px;
   padding-bottom: 30px;
 }
-.imagegauche{
+.imagegauche {
   margin-right: 20px;
 }
-.textedroite{
+.textedroite {
   font-size: 20px;
   font-weight: bold;
 }
-.textedroitedroite{
+.textedroitedroite {
   margin: 135px 15px 18px -145px;
-  background-color:rgb(189, 139, 85); 
+  background-color: rgb(189, 139, 85);
   text-align: center;
-
 }
 .boxnews {
   position: relative;
@@ -100,6 +110,12 @@ li {
 .quatriemeimage {
   width: 250px;
 }
+.cinquiemeimage {
+  width: 250px;
+}
+.sixiemeimage {
+  width: 250px;
+}
 .navboxN {
   font-size: 50px;
   font-weight: bold;
@@ -113,12 +129,12 @@ li {
   height: 1150px;
   width: 900px;
   top: 280px;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 auto;
-  background-image:url(../images/cimetieres.jpg);
+  background-image: url(../images/cimetieres.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- }
+}
 .navboxD {
   font-size: 50px;
   font-weight: bold;
@@ -135,7 +151,7 @@ li {
   font-size: 25px;
   text-indent: 35px;
   margin: 0 auto;
-  background-image:url(../images/missing.jpg);
+  background-image: url(../images/missing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -147,127 +163,96 @@ li {
   margin: -1px 21px 5px -12px;
 }
 .liste {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 250px;
 }
-/* FOOTER  */
-.blocfooter {
+/*FOOTER*/
+footer {
   position: absolute;
-  top: 650%;
-  width: 1519px;
-  background: black;
+  top: 4500px;
+  width: 100%;
+  background-color: #121619;
+  box-shadow: 1px -3px 6px 0px #afafaf;
+  color: #fff;
 }
-.logo {
-  position: absolute;
-  top: 10%;
-  right: 7.5%;
+.top_header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.copyright-text {
-  position: absolute;
-  top: 80%;
-  right: 3%;
-  color: white;
-  font-family: "Poppins", sans-serif;
+.top_header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.copyright-text a {
-  color: white;
+.top_header span {
+  padding: 0 1rem;
 }
-.copyright-text a:hover {
-  color: rgb(207, 141, 118);
+.top_header .fa {
+  color: #ffbe00;
+  font-size: 35px;
 }
-.col {
-  width: 400px;
-  height: auto;
-  float: left;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding: 0px 20px 20px 20px;
+footer .border-shape {
+  width: 40%;
 }
-/*footer{
-  position: absolute;
-  bottom: 0;
-}*/
-.footer .col h1 {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
+footer .border-shape::before {
+  width: 100%;
+  left: 120px;
+}
+footer .border-shape::after {
+  width: 100%;
+  right: 120px;
+}
+footer .bottom_content section {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: Center;
+}
+.bottom_content a {
+  margin: 0 20px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.5s;
+}
+.bottom_content a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.copyright {
+  padding: 0.8em 0;
+  background-color: #1e1e1e;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 12px;
-  line-height: 17px;
-  padding: 20px 0px 5px 0px;
-  color: white;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
 }
-.footer .col ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.copyright a {
+  color: rgba(255, 255, 255, 0.7);
 }
-.footer .col ul li {
-  color: #999999;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 5px 0px 5px 0px;
-  cursor: pointer;
-  transition: 0.2s;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
+.copyright a:hover {
+  color: rgba(255, 255, 255, 1);
 }
-.social ul li {
-  display: inline-block;
-  padding-right: 5px !important;
-}
-
-.footer .col ul li:hover {
-  color: #ffffff;
-  transition: 0.1s;
-  -webkit-transition: 0.1s;
-  -moz-transition: 0.1s;
-}
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
+@media (max-width: 820px) {
+  .top_header {
+    padding: 1rem;
     display: block;
   }
-  .social h1 {
-    margin: 0px;
+  .top_header section {
+    margin: 40px 0;
+    align-items: left;
+    justify-content: left;
   }
-}
-@media only screen and (max-width: 950px) {
-  .footer .col {
-    width: 33%;
+  footer .bottom_content section {
+    padding: 1rem;
+    display: block;
   }
-  .footer .col h1 {
-    font-size: 14px;
-  }
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .footer .col {
-    width: 50%;
-  }
-  .footer .col h1 {
-    font-size: 14px;
-  }
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
+  footer .bottom_content section a {
+    padding: 1rem;
+    font-size: 12px;
+    margin: 0 5px;
+    display: inline-block;
   }
 }
