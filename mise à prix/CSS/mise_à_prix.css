@@ -143,7 +143,7 @@ body {
 }
 .card__header h2 {
   position: absolute;
-  margin: 160px 100px 0px;
+  margin: 160px 150px 0px;
   color: #fff;
   text-shadow: 6px 1px 10px #323232;
   font-size: 32px;
@@ -185,6 +185,10 @@ body {
   transform-style: preserve-3d;
   cursor: pointer;
 }
+.BLOOD1 {
+color: red;
+}
+
 .card__inner2.is-flipped2 {
   position: absolute;
   transform: rotateY(180deg);
@@ -241,6 +245,10 @@ body {
   border: 5px solid #fff;
   object-fit: cover;
 }
+.BLOOD {
+color: red;
+}
+
 .card__header2 h2 {
   position: absolute;
   margin: 160px 130px 0px;
@@ -276,6 +284,12 @@ body {
   width: 400px;
   height: 600px;
   perspective: 1000px;
+}
+.BLOOD2 {
+color: red;  
+}
+.BLOOD3 {
+ color: red; 
 }
 .card__inner3 {
   position: absolute;
