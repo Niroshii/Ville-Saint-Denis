@@ -64,31 +64,27 @@ body {
 }
 /* PARTIE BOITE NEWS */
 .activités {
-  margin-left: 65.7%;
-  margin-top: -10.8%;
-  padding: 0%;
+  position: absolute;
   border-radius: 4px;
-  height: 300px;
+  height: 200px;
   width: 600px;
   right: 100px;
   top: 200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités1 {
-  margin-left: 65.7%;
-  margin-top: 2.5%;
+  position: absolute;
   border-radius: 4px;
-  height: 300px;
+  height: 200px;
   width: 600px;
   right: 100px;
   top: 450px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités2 {
-  margin-left: 65.7%;
-  margin-top: 2%;
+  position: absolute;
   border-radius: 4px;
-  height: 300px;
+  height: 200px;
   width: 600px;
   right: 100px;
   top: 700px;
@@ -96,28 +92,25 @@ body {
 }
 
 .activités3 {
-  margin-left: 65.7%;
-  margin-top: 2%;
+  position: absolute;
   border-radius: 4px;
-  height: 300px;
+  height: 200px;
   width: 600px;
   right: 100px;
   top: 950px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .activités4 {
-  margin-left: 65.7%;
-  margin-top: 2%;
+  position: absolute;
   border-radius: 4px;
-  height: 300px;
+  height: 200px;
   width: 600px;
   right: 100px;
   top: 1200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .bois {
-  margin-left: 1.5%;
-  margin-top: 0%;
+  position: absolute;
   left: 30px;
   border-radius: 10px;
   height: 200px;
@@ -126,8 +119,7 @@ body {
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .chasse {
-  margin-left: -47%;
-  margin-top: 10.7%;
+  position: absolute;
   left: 30px;
   border-radius: 5px;
   height: 200px;
