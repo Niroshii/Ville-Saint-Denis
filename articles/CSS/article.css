@@ -132,11 +132,9 @@ li {
   top: 175px;
   font-family: "Nunito", "Poppins", sans-serif;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.493);
-  height: 50px;
-  width: 400px;
   text-align: center;
 }
 .description {
