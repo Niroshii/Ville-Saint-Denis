@@ -10,6 +10,9 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: url(../contact/img/backgound.jpg) no-repeat cover;
+}
 .container {
   position: relative;
   width: 100%;
