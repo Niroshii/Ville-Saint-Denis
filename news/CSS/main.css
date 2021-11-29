@@ -161,7 +161,7 @@ body {
 .chasse {
   position: absolute;
   left: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 200px;
   width: 900px;
   top: 450px;
@@ -170,7 +170,7 @@ body {
 .banque {
   position: absolute;
   left: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 200px;
   width: 900px;
   top: 700px;
@@ -179,7 +179,7 @@ body {
 .forêt {
   position: absolute;
   left: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 200px;
   width: 900px;
   top: 950px;
@@ -188,7 +188,7 @@ body {
 .ville {
   position: absolute;
   left: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 200px;
   width: 900px;
   top: 1200px;
