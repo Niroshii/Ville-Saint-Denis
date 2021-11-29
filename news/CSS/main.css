@@ -52,22 +52,11 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-/* .titreh1 {
-  position: absolute;
-  left: 660px;
-  top: 20px;
-  font-family: "font-1", sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  color: black;
-  line-height: 1em;
-  text-transform: uppercase;
-} */
 body {
   background-color: #e9edef;
 }
 /* PARTIE BOITE NEWS */
-.activités {
+.activity {
   position: absolute;
   border-radius: 4px;
   height: 200px;
@@ -96,7 +85,7 @@ body {
   border-radius: solid 2px black;
   font-size: medium;
 }
-.activités1 {
+.activity_1 {
   position: absolute;
   border-radius: 4px;
   height: 200px;
@@ -105,7 +94,7 @@ body {
   top: 450px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.activités2 {
+.activity_2 {
   position: absolute;
   border-radius: 4px;
   height: 200px;
@@ -114,7 +103,7 @@ body {
   top: 700px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.activités3 {
+.activity_3 {
   position: absolute;
   border-radius: 4px;
   height: 200px;
@@ -123,7 +112,7 @@ body {
   top: 950px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.activités4 {
+.activity_4 {
   position: absolute;
   border-radius: 4px;
   height: 200px;
@@ -132,7 +121,7 @@ body {
   top: 1200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.bois {
+.wood {
   position: absolute;
   left: 30px;
   border-radius: 10px;
@@ -141,7 +130,7 @@ body {
   top: 200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.titrearticle {
+.title_article {
   position: absolute;
   font-family: "poppins" sans-serif;
   left: 50px;
@@ -149,7 +138,7 @@ body {
   color: white;
   border-radius: solid 2px black;
 }
-.descriptionarticle1 {
+.description_article_1 {
   position: absolute;
   font-family: "poppins" sans-serif;
   font-weight: bold;
@@ -167,7 +156,7 @@ body {
   top: 450px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.banque {
+.bank {
   position: absolute;
   left: 30px;
   border-radius: 10px;
@@ -185,7 +174,7 @@ body {
   top: 950px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.ville {
+.town {
   position: absolute;
   left: 30px;
   border-radius: 10px;
