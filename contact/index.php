@@ -20,9 +20,9 @@
     $mail = mail($to,$subject,$message,$headers);
 
     if ($mail) {
-      echo "<script>alert('L'email est envoyé.');</script>";
+      echo "<script>alert('Votre demande est envoyé.');</script>";
     }else {
-      echo "<script>alert('L'email n'a pas été envoyé.');</script>";
+      echo "<script>alert('Votre demande n'a pas été envoyé.');</script>";
     }
   }
 ?>
@@ -30,9 +30,10 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Formulaire de contact</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/homepage/ampoule fav.png">
   </head>
   <body>
     <div class="container">
