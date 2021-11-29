@@ -36,7 +36,7 @@ li,
 a {
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #111;
   text-transform: uppercase;
 }
 a:hover {
@@ -48,17 +48,6 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-/* .titreh1 {
-  position: absolute;
-  left: 660px;
-  top: 20px;
-  font-family: "font-1", sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  color: black;
-  line-height: 1em;
-  text-transform: uppercase;
-} */
 body {
   background-color: #e9edef;
 }
@@ -69,9 +58,10 @@ body {
 }
 .date {
   text-align: center;
-  color: red;
+  color: rgb(207, 141, 118);
   font-weight: bold;
   font-size: 25px;
+  text-transform: uppercase;
   padding-bottom: 30px;
 }
 .imagegauche {
@@ -81,16 +71,34 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-.textedroitedroite {
-  margin: 132px 5px 18px -166px;
-  background-color: rgb(189, 139, 85);
+.textedesdeces {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  line-height: 50px;
   text-align: center;
-  border-radius: 24px;
-  color : white; 
+}
+.textedesdeces h3 a {
+  color: #fff;
+}
+.textedesdeces:hover h3:hover a:hover {
+  color: rgb(207, 141, 118);
+}
+.textedroitedroite {
+  margin: 132px 0px 18px -150px;
+  background-color: rgb(207, 141, 118);
+  height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+.textedroitedroite:hover {
+  color: #111;
 }
 .boxnews {
   position: relative;
-  left: 40px;
+  left: 25px;
   right: 80px;
   border-radius: 24px;
   height: 904x;
@@ -98,83 +106,125 @@ body {
   top: 80px;
   margin: 0 auto;
   background-color: white;
-  box-shadow: 25px 25px 25px rgb(138, 97, 35);
+  box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .premiereimage {
   width: 250px;
+  border-radius: 10px;
 }
 .deuxiemeimage {
   width: 250px;
   text-indent: 35px;
+  border-radius: 10px;
 }
 .troisiemeimage {
   width: 250px;
+  border-radius: 10px;
 }
 .quatriemeimage {
   width: 250px;
+  border-radius: 10px;
 }
 .cinquiemeimage {
   width: 150px;
+  border-radius: 10px;
 }
 .sixiemeimage {
   width: 150px;
+  border-radius: 10px;
 }
 .navboxN {
   font-size: 50px;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
 }
 .boxnews2 {
   position: relative;
-  left: 40px;
-  border: solid 3px black;
+  left: 25px;
   border-radius: 24px;
   height: 1150px;
   width: 900px;
-  top: 280px;
+  top: 150px;
   font-size: 22px;
   margin: 0 auto;
-  background-image: url(../images/cimetieres.jpg);
+  background-image: url(../images/flower.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .navboxD {
+  color: #fff;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.navboxDD {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
 }
 .boxnews3 {
   position: relative;
-  left: 40px;
-  border: solid 3px black;
+  left: 25px;
   border-radius: 24px;
   height: 1200px;
   width: 900px;
-  top: 385px;
+  top: 220px;
   font-size: 25px;
   text-indent: 35px;
   margin: 0 auto;
-  background-image: url(../images/missing.jpg);
+  background-image: url(../images/a-book-gc30aa4355_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
 .data {
-  font-size: 70px;
   text-align: center;
+  color: rgb(207, 141, 118);
   font-weight: bold;
-  color: red;
-  margin: -1px 21px 5px -12px;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
 }
-.liste {
+.liste a {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 0px;
+  color: #fff;
+}
+.liste a:hover {
+  color: rgb(207, 141, 118);
+}
+.ancre {
+  animation: floating 6s ease-in-out 0s infinite;
+  position: absolute;
+  right: 50px;
+  top: 4000px;
+  width: 50px;
+  height: 50px;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
 /*FOOTER*/
 footer {
   position: absolute;
-  top: 4500px;
+  top: 4100px;
   width: 100%;
   background-color: #121619;
   box-shadow: 1px -3px 6px 0px #afafaf;
