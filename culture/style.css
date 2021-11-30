@@ -51,92 +51,165 @@ li {
 body {
   background-color: #e9edef;
 }
-.slider {
-  position: absolute;
-  width: 900px;
-  height: 400px;
-  right: 17%;
-  top: 20%;
+.sd-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+.sd-container {
+  padding: 60px 0;
+
   overflow: hidden;
 }
-.slides {
-  width: 500%;
-  height: 500px;
-  display: flex;
-  box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
-}
-.slides input {
-  display: none;
-}
-.slide {
-  width: 20%;
-  transition: 2s;
-}
-.slide img {
-  width: 800px;
-  height: 500px;
-}
-/*CSS for manual slide navigation*/
-.navigation-manual {
+.sd-card-bg {
+  height: 100%;
+  width: 200%;
+  background-position: 50%;
+  background-size: cover;
+
   position: absolute;
-  width: 800px;
-  margin-top: -150px;
-  display: flex;
-  justify-content: center;
+  top: 0;
+  left: -50%;
+
+  -webkit-transition: height 0.6s;
+  -moz-transition: height 0.6s;
+  -o-transition: height 0.6s;
+  transition: height 0.6s;
 }
-.manual-btn {
-  border: 2px solid #fff;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
+.sd-card_box-wrap {
+  padding: 15px;
 }
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
+.sd-card_box {
+  background-color: #fff;
+
+  overflow: hidden;
+
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 35, 0.25);
+  -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 35, 0.25);
+  -o-box-shadow: 0 10px 20px 0 rgba(0, 0, 35, 0.25);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 35, 0.25);
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
-.manual-btn:hover {
-  background: #fff;
+.sd-card_body {
+  display: block;
+  height: 250px;
+  width: 300px;
+  background-position: 50%;
+  background-size: cover;
+
+  overflow: hidden;
+
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+
+  position: relative;
 }
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-#radio2:checked ~ .first {
-  margin-left: -20%;
-}
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-#radio4:checked ~ .first {
-  margin-left: -60%;
-}
-/* CSS for automatic navigation*/
-.navigation-auto {
+.sd-card-body_link {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  z-index: 9;
   position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+  -o-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.35);
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  -webkit-transition: top 0.4s;
+  -moz-transition: top 0.4s;
+  -o-transition: top 0.4s;
+  transition: top 0.4s;
+}
+.sd-card-body_img {
+  max-width: 100%;
+}
+.sd-card_footer {
+  padding: 15px 30px;
+  border: 0;
+  background-color: #fff;
+
+  position: relative;
+}
+.sd-card-footer_title {
+  display: block;
+  line-height: 1.3;
+
+  font-weight: 700;
+  font-size: 14px;
+  color: #690911;
+}
+.sd-card-footer_products {
+  display: block;
+  line-height: 1.3;
+  font-size: 12px;
+}
+.sd-card-footer_link {
   display: flex;
-  width: 800px;
+  align-items: center;
   justify-content: center;
-  margin-top: 460px;
+  height: 35px;
+  width: 35px;
+  background-color: #535353;
+
+  position: absolute;
+  right: 30px;
+  top: 15px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
-.navigation-auto div {
-  border: 2px solid #fff;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
+.sd-card-footer_arrow {
+  max-width: 16px;
 }
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
+
+@media only screen and (max-width: 767px) {
+  .sd-format-container {
+    width: 96%;
+  }
 }
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: #fff;
+
+@media only screen and (max-width: 639px) {
 }
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: #fff;
+
+@media only screen and (max-width: 479px) {
 }
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: #fff;
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sd-format-container {
+    width: 750px;
+  }
 }
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: #fff;
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .sd-format-container {
+    width: 960px;
+  }
 }
 .h21 {
   position: absolute;
@@ -152,7 +225,7 @@ body {
 }
 .cabaret {
   margin-left: 19.8%;
-  margin-top: 475px;
+  margin-top: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
