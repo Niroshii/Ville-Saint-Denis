@@ -41,6 +41,7 @@ a {
 }
 a:hover {
   color: rgb(207, 141, 118);
+  text-decoration: overline;
 }
 ul,
 li {
