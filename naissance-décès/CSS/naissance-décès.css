@@ -4,7 +4,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-.headerimg {
+.header_img {
   margin: -230px 0 0 0;
   margin-left: 500px;
   padding: 0px;
@@ -12,21 +12,21 @@
   left: 499px;
   height: 300px;
 }
-.navbarbox {
+.nav_bar_box {
   padding: 0px;
   background: #fff;
   height: 135px;
   width: auto;
   box-shadow: 1px 3px 6px 0px #afafaf;
 }
-.navigationbar {
+.navigation_bar {
   padding: 0px;
   margin: -120px 0 0 0;
   margin-left: 247px;
   top: 100px;
   left: 332px;
 }
-.navigationbar a {
+.navigation_bar a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -51,7 +51,7 @@ li {
 body {
   background-color: #e9edef;
 }
-.globale {
+.overall {
   display: inline-flex;
   margin: 10px 15px 10px 15px;
   background-color: white;
@@ -60,30 +60,32 @@ body {
   text-align: center;
   color: rgb(207, 141, 118);
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   text-transform: uppercase;
   padding-bottom: 30px;
 }
-.imagegauche {
+.left_img {
   margin-right: 20px;
 }
-.textedroite {
+.txt_r {
   font-size: 20px;
   font-weight: bold;
 }
-.textedesdeces {
+.txt_death {
   font-family: "Poppins", sans-serif;
+  margin: auto 30px;
   font-size: 1.2rem;
   line-height: 50px;
-  text-align: center;
+  font-weight: bold;
+  text-align: justify;
 }
-.textedesdeces h3 a {
+.txt_death a {
   color: #fff;
 }
-.textedesdeces:hover h3:hover a:hover {
+.txt_death:hover a:hover {
   color: rgb(207, 141, 118);
 }
-.textedroitedroite {
+.txt_r_1 {
   margin: 132px 0px 18px -150px;
   background-color: rgb(207, 141, 118);
   height: 25px;
@@ -93,10 +95,10 @@ body {
   border-radius: 10px;
   color: white;
 }
-.textedroitedroite:hover {
+.txt_r_1:hover {
   color: #111;
 }
-.boxnews {
+.box_news {
   position: relative;
   left: 25px;
   right: 80px;
@@ -108,39 +110,39 @@ body {
   background-color: white;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.premiereimage {
+.first_picture {
   width: 250px;
   border-radius: 10px;
 }
-.deuxiemeimage {
+.second_picture {
   width: 250px;
   text-indent: 35px;
   border-radius: 10px;
 }
-.troisiemeimage {
+.third_picture {
   width: 250px;
   border-radius: 10px;
 }
-.quatriemeimage {
+.fourth_picture {
   width: 250px;
   border-radius: 10px;
 }
-.cinquiemeimage {
+.fifth_picture {
   width: 150px;
   border-radius: 10px;
 }
-.sixiemeimage {
+.sixth_picture {
   width: 150px;
   border-radius: 10px;
 }
-.navboxN {
-  font-size: 50px;
+.nav_box_N {
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
-.boxnews2 {
+.box_news_2 {
   position: relative;
   left: 25px;
   border-radius: 24px;
@@ -153,23 +155,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navboxD {
+.nav_box_D {
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-.navboxDD {
+.nav_box_DD {
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
 }
-.boxnews3 {
+.box_news_3 {
   position: relative;
   left: 25px;
   border-radius: 24px;
@@ -184,25 +186,21 @@ body {
   background-size: cover;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.data {
-  text-align: center;
-  color: rgb(207, 141, 118);
-  font-weight: bold;
-  font-size: 25px;
-  text-transform: uppercase;
-  padding-bottom: 30px;
-}
-.liste a {
-  font-size: 25px;
+.list {
+  font-family: "Poppins", sans-serif;
+  margin: auto 10px;
+  font-size: 1.2rem;
+  line-height: 50px;
   font-weight: bold;
   text-align: center;
-  margin-top: 0px;
-  color: #fff;
 }
-.liste a:hover {
+.list a {
+  color: white;
+}
+.list a:hover {
   color: rgb(207, 141, 118);
 }
-.ancre {
+.anchor {
   animation: floating 6s ease-in-out 0s infinite;
   position: absolute;
   right: 50px;
