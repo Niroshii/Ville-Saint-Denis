@@ -51,7 +51,7 @@ li {
 body {
   background-color: #e9edef;
 }
-.ancre {
+.anchor {
   animation: floating 6s ease-in-out 0s infinite;
   position: absolute;
   right: 50px;
