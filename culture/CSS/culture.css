@@ -254,18 +254,6 @@ body {
 .ensavoirplus2:hover {
   color: rgb(207, 141, 118);
 }
-.ancre {
-  position: absolute;
-  right: 50px;
-  top: 1600px;
-  width: 50px;
-  height: 50px;
-}
-.ancre:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
-}
 /*FOOTER*/
 footer {
   position: absolute;
