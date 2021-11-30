@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@font-face {
-  font-family: "font-1";
-  src: url(/assets/fonts/chineserocksrg.otf);
-}
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-.headerimg {
+.header_img {
   margin: -230px 0 0 0;
   margin-left: 500px;
   padding: 0px;
@@ -16,21 +12,21 @@
   left: 499px;
   height: 300px;
 }
-.navbarbox {
+.nav_bar_box {
   padding: 0px;
   background: #fff;
   height: 135px;
   width: auto;
   box-shadow: 1px 3px 6px 0px #afafaf;
 }
-.navigationbar {
+.navigation_bar {
   padding: 0px;
   margin: -120px 0 0 0;
   margin-left: 247px;
   top: 100px;
   left: 332px;
 }
-.navigationbar a {
+.navigation_bar a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -65,20 +61,19 @@ body {
   top: 200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.titreactivité1 {
+.title_activity_1 {
   position: absolute;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   left: 1115px;
   top: 212.5px;
   color: rgb(254, 255, 255);
   border-radius: solid 2px black;
   font-size: large;
 }
-.descriptionactivité1 {
+.description_activity_1 {
   position: absolute;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-
   left: 1115px;
   top: 250px;
   color: white;
@@ -132,7 +127,7 @@ body {
 }
 .title_article {
   position: absolute;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   left: 50px;
   top: 200px;
   color: white;
@@ -140,14 +135,14 @@ body {
 }
 .description_article_1 {
   position: absolute;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   left: 50px;
   top: 250px;
   color: #ffffff;
   border-radius: solid 2px black;
 }
-.chasse {
+.hunting {
   position: absolute;
   left: 30px;
   border-radius: 10px;
@@ -165,7 +160,7 @@ body {
   top: 700px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.forêt {
+.forest {
   position: absolute;
   left: 30px;
   border-radius: 10px;
@@ -183,7 +178,7 @@ body {
   top: 1200px;
   box-shadow: 0px 0px 10px 0px rgb(145, 145, 145);
 }
-.lien1 {
+.link_1 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -195,7 +190,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien2 {
+.link_2 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -207,7 +202,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien3 {
+.link_3 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -219,7 +214,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien4 {
+.link_4 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -231,7 +226,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien5 {
+.link_5 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -243,7 +238,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien6 {
+.link_6 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -255,7 +250,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien7 {
+.link_7 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -267,7 +262,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien8 {
+.link_8 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -279,7 +274,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien9 {
+.link_9 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -291,7 +286,7 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien10 {
+.link_10 {
   position: absolute;
   height: 0px;
   width: 300px;
@@ -303,19 +298,19 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.lien1:hover,
-.lien2:hover,
-.lien3:hover,
-.lien4:hover,
-.lien5:hover,
-.lien6:hover,
-.lien7:hover,
-.lien8:hover,
-.lien9:hover,
-.lien10:hover {
+.link_1:hover,
+.link_2:hover,
+.link_3:hover,
+.link_4:hover,
+.link_5:hover,
+.link_6:hover,
+.link_7:hover,
+.link_8:hover,
+.link_9:hover,
+.link_10:hover {
   color: rgb(207, 141, 118);
 }
-.ancre {
+.anchor {
   animation: floating 6s ease-in-out 0s infinite;
   position: absolute;
   right: 50px;

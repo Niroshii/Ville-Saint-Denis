@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@
   --dark: #212121;
   --light: #f3f3f3;
 }
-.headerimg {
+.header_img {
   margin: -230px 0 0 0;
   margin-left: 500px;
   padding: 0px;
@@ -18,21 +19,21 @@
   left: 499px;
   height: 300px;
 }
-.navbarbox {
+.nav_bar_box {
   padding: 0px;
   background: #fff;
   height: 135px;
   width: 1519px;
   box-shadow: 1px 3px 6px 0px #afafaf;
 }
-.navigationbar {
+.navigation_bar {
   padding: 0px;
   margin: -120px 0 0 0;
   margin-left: 247px;
   top: 100px;
   left: 332px;
 }
-.navigationbar a {
+.navigation_bar a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -56,6 +57,20 @@ li {
 }
 body {
   background-color: #e9edef;
+}
+.title_1 {
+  position: absolute;
+  font-family: "Nosifer", sans-serif;
+  top: 200px;
+  font-size: 2.5rem;
+  left: 515px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 3px 5px 2px #c2c2c2;
+}
+.title_1_red {
+  color: red;
+  font-family: "Nosifer", sans-serif;
 }
 /* PARTIE CARD 1 */
 .card {
@@ -172,9 +187,6 @@ body {
   transform-style: preserve-3d;
   cursor: pointer;
 }
-.BLOOD1 {
-  color: red;
-}
 .card__inner2.is-flipped2 {
   position: absolute;
   transform: rotateY(180deg);
@@ -230,8 +242,9 @@ body {
   border: 5px solid #fff;
   object-fit: cover;
 }
-.BLOOD {
+.blood {
   color: red;
+  font-family: "Nosifer", sans-serif;
 }
 .card__header2 h2 {
   position: absolute;
@@ -268,12 +281,6 @@ body {
   width: 400px;
   height: 600px;
   perspective: 1000px;
-}
-.BLOOD2 {
-  color: red;
-}
-.BLOOD3 {
-  color: red;
 }
 .card__inner3 {
   position: absolute;
@@ -365,9 +372,6 @@ body {
   text-shadow: 6px 1px 10px #323232;
   font-size: 18px;
   line-height: 1.4;
-}
-.BLOOD5 {
-  color: red;
 }
 .gang h2 {
   position: absolute;

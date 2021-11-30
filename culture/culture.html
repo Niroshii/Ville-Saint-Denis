@@ -1,73 +1,126 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Site officiel de la ville de Saint Denis dans l'état de Lemoyne">
-        <title>Saint Denis - Culture</title>
-        <link rel="shortcut icon" href="../images/homepage/ampoule fav.png">
-        <link rel="stylesheet" type="text/css" href="../culture/CSS/culture.css">
-    </head>
-    <body>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Saint Denis - Culture</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="../images/homepage/ampoule fav.png">
+</head>
         <header>
         <div id="up"></div>
         <div class="navbarbox"></div>
-        <img src="../images/homepage/saintdenisnoirblanc" class="headerimg">
+        <img src="./saintdenisnoirblanc.png" class="headerimg">
         <div class="navigationbar">
         <ul>
             <li><a href="../index.html" target="_blank">Accueil</a></li>
             <li><a href="../news/news.html">News</a></li>
             <li><a href="../econnomie-commerce/eco-commerce.html">Éconnomie-Commerce</a></li>
-            <li><a href="../culture/culture.html">Culture</a></li>
+            <li><a href="../culture/culture.html" style="text-decoration: underline">Culture</a></li>
             <li><a href="../naissance-décès/naissance-décès.html">Naissances-Décès</a></li>
             <li><a href="../mise à prix/mise_à_prix.html">Mise à prix</a></li>
             <li><a href="../contact/index.php" target="_blank">Contact</a></li>
         </ul>
         </div>
         </header>
-        <!-- CARROUSEL START -->
-        <!--Image slider start-->
-             <div class="slider">
-                <div class="slides">
-        <!--radio buttons start-->
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-        <!--radio buttons end-->
-        <!--slide image start-->
-            <div class="slide first">
-                <img src="../culture/images/thâtre-saint-denis.jpg"  alt="Image du Théâtre de Saint Denis">
-                </div>
-                    <div class="slide">
-                        <img src="../culture/images/saloon-saint-denis.jpg" alt="Image du célébre saloon Bastill de Saint Denis">
-                    </div>
-                        <div class="slide">
-                            <img src="../culture/images/balades-cheval-nocture-saint-denis.jpg" alt="Image des balades nocturnes a cheval à Saint Denis ">
-                        </div>
-                            <div class="slide">
-                                <img src="../culture/images/marché-de-nuit-saint-denis.jpg" alt="Image des Marchés de nuit à Saint Denis">
-                            </div>
-        <!-- slide image end-->
-        <!--automatic navigation start-->
-                        <div class="navigation-auto">
-                           <div class="auto-btn1"></div>
-                           <div class="auto-btn2"></div> 
-                           <div class="auto-btn3"></div> 
-                           <div class="auto-btn4"></div> 
-                        </div>
-                        <!--automatic navigation end-->
-                    </div>
-                    <!--Manuel navigation start-->
-                    <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
-                    <!--Manuel navigation end-->
+<body>
+<!-- Début Carrousel -->
+<div class="sd-container">
+      <div class="js-flickity-slider">
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/marché-de-nuit-saint-denis.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Image d'un personnage" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Marché de nuit</span>
+                <span class="sd-card-footer_products">Découvrez les marchés de nuit...</span>
+              </div>
             </div>
-        <!-- CARROUSEL END -->
-        <!-- BOX ARTICLES CABARET -->
+          </div>
+        </div>
+
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/balades-cheval-nocture-saint-denis.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Falu" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Balades à cheval la nuit</span>
+                <span class="sd-card-footer_products">Vivez de somptueuse balades...</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/saloon-saint-denis.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Falu" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Saloon à Saint Denis</span>
+                <span class="sd-card-footer_products">Goûtez aux délices de la vie..</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/b106887fda470135b004d36c5f10375d.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Falu" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Transport à Saint Denis</span>
+                <span class="sd-card-footer_products">Voyage Voyage...</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/maire.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Falu" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Henri Lemieux</span>
+                <span class="sd-card-footer_products">Un maire somptueux...</span></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="js-carousel-cell">
+          <div class="sd-card_box-wrap">
+            <div class="sd-card_box">
+              <div class="sd-card_body">
+                <div class="js-card-bg sd-card-bg" style="background-image: url(../culture/images/thâtre-saint-denis.jpg);"></div>
+                <a href="#" class="sd-card-body_link"><img src="../culture/images/character-png.png" alt="Falu" class="sd-card-body_img"></a>
+              </div>
+              <div class="sd-card_footer">
+                <a href="#" class="sd-card-footer_link"><img src="../culture/images/60592.png" class="sd-card-footer_arrow"></a>
+                <span class="sd-card-footer_title">Théâtre de Saint Denis</span> 
+                <span class="sd-card-footer_products">Découvrez de magnifiques pièces...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- BOX ARTICLES CABARET -->
         <h2 class="h21">Cabaret chantant...</h2>
         <p class="p1">Découvrez la sublisime Molly O’Shea sur scène,<br/> 
             cette magnifique danseuse vous fera<br/> 
@@ -133,9 +186,11 @@
     </div>
 </footer>
     <!-- END OF FOOTER -->
-<!-- PARTIE SCRIPT -->
-  <script type="text/javascript" src="..//culture/JS/carrousel.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </body>
+<!-- Partie Javascript -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
