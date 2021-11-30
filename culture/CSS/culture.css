@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -54,17 +48,6 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-/* .titreh1 {
-  position: absolute;
-  left: 660px;
-  top: 20px;
-  font-family: "font-1", sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  color: black;
-  line-height: 1em;
-  text-transform: uppercase;
-} */
 body {
   background-color: #e9edef;
 }
