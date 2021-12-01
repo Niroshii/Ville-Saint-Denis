@@ -412,6 +412,13 @@ body {
   height: 700px;
   width: 1480px;
 }
+.text_gang {
+margin: 1030px 24px 0px;
+position: absolute;
+font-family: "Poppins"; sans-serif;
+font-size: 22px;
+}
+
 /*FOOTER*/
 footer {
   position: absolute;
