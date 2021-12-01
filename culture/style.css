@@ -57,7 +57,7 @@ a {
   color: black;
   text-transform: uppercase;
 }
-a:hover {
+.navtext a:hover {
   color: rgb(207, 141, 118);
   text-decoration: overline;
 }
