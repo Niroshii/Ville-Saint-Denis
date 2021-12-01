@@ -57,7 +57,7 @@ a {
   color: black;
   text-transform: uppercase;
 }
-a:hover {
+.navtext a:hover {
   color: rgb(207, 141, 118);
   text-decoration: overline;
 }
@@ -141,11 +141,11 @@ body {
   border-radius: 10px;
 }
 .fifth_picture {
-  width: 150px;
+  width: 250px;
   border-radius: 10px;
 }
 .sixth_picture {
-  width: 150px;
+  width: 250px;
   border-radius: 10px;
 }
 .nav_box_N {
@@ -165,7 +165,7 @@ body {
   font-size: 13px;
   margin: 0 auto;
   background-color: rgb(128, 128, 128);
-  box-shadow: 0px 0px 20px 0px rgb(145, 145, 145);
+  box-shadow: 0px 0px 20px 0px rgb(128, 128, 128);
 }
 .picturecimetiere {
   text-align: center;
@@ -194,14 +194,14 @@ body {
   position: relative;
   left: 25px;
   border-radius: 24px;
-  height: 1200px;
+  height: 1000px;
   width: 900px;
   top: 220px;
   font-size: 25px;
   text-indent: 35px;
   margin: 0 auto;
-  background-color: #c8161e;
-  box-shadow: 0px 0px 20px 0px rgb(145, 145, 145);
+  background-color: rgb(138, 97, 35);
+  box-shadow: 0px 0px 20px 0px rgb(168, 125, 50);
 }
 .list {
   font-family: "Poppins", sans-serif;
@@ -221,7 +221,7 @@ body {
   animation: floating 6s ease-in-out 0s infinite;
   position: absolute;
   right: 50px;
-  top: 4000px;
+  top: 3788px;
   width: 50px;
   height: 50px;
 }
@@ -239,7 +239,7 @@ body {
 /*FOOTER*/
 footer {
   position: absolute;
-  top: 4100px;
+  top: 3900px;
   width: 100%;
   background-color: #121619;
   box-shadow: 1px -3px 6px 0px #afafaf;
