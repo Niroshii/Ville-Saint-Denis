@@ -88,9 +88,6 @@ a:hover {
 .floatimg {
   animation: floating 6s ease-in-out 0s infinite;
 }
-.imag_bebe {
-  width: 450px;
-}
 @keyframes floating {
   0% {
     transform: translateY(15px);
