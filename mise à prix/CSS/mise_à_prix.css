@@ -413,11 +413,13 @@ body {
   width: 1480px;
 }
 .text_gang {
-margin: 1030px 24px 0px;
+margin: 1030px 88px 0px;
 position: absolute;
 font-family: "Poppins"; sans-serif;
 font-size: 22px;
+text-shadow: 1px 1px 2px #e80028;
 }
+
 
 /*FOOTER*/
 footer {
