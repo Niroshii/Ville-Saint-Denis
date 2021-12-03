@@ -84,6 +84,7 @@ body {
   }
 }
 /*Code*/
+
 .contenu_midl {
   align-content: center;
   width: 1500px;
@@ -97,17 +98,26 @@ body {
 }
 .contenu_right {
   position: absolute;
-  top: 350px;
-
+  top: 23%;
   width: 300px;
   height: auto;
   border-radius: 10px;
+  left: 5%;
+}
+.contenu_left{
+  position: absolute;
+  top: 23%;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  right: 18%;
 }
 .img1 {
   max-width: 600px;
   max-height: 300px;
   margin-bottom: 5%;
   margin-left: 5%;
+  border-radius: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .img2 {
@@ -115,6 +125,7 @@ body {
   max-height: 300px;
   margin-left: 5%;
   margin-bottom: 5%;
+  border-radius: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .img3 {
@@ -122,25 +133,58 @@ body {
   max-height: 300px;
   margin-left: 5%;
   margin-bottom: 5%;
+  border-radius: 10px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 
  .img4 { 
-  max-width: 300px;
+  max-width: 600px;
   max-height: 300px;
   margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .img5 { 
-  max-width: 300px;
+  max-width: 600px;
   max-height: 300px;
   margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .img6 { 
-  max-width: 300px;
+  max-width: 600px;
   max-height: 300px;
   margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
-
+.img7 {
+  max-width: 600px;
+  max-height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.img8{
+  max-width: 600px;
+  max-height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.img9{  
+  max-width: 600px;
+  max-height: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
 /*FOOTER*/
 footer {
   position: absolute;
