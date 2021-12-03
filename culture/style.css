@@ -252,10 +252,10 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.ensavoirplus {
+.read_more {
   color: #fff;
 }
-.ensavoirplus:hover {
+.read_more:hover {
   color: rgb(207, 141, 118);
 }
 .musée {
@@ -286,10 +286,10 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.ensavoirplus1 {
+.read_more_1 {
   color: black;
 }
-.ensavoirplus1:hover {
+.read_more_1:hover {
   color: rgb(207, 141, 118);
 }
 .ancre {
@@ -339,10 +339,10 @@ body {
   line-height: 1.7em;
   text-transform: uppercase;
 }
-.ensavoirplus2 {
+.read_more_2 {
   color: #fff;
 }
-.ensavoirplus2:hover {
+.read_more_2:hover {
   color: rgb(207, 141, 118);
 }
 /*FOOTER*/
