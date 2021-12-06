@@ -180,12 +180,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .nav_box_DD {
-  color: #111;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  padding: 0 0 0 245px;
 }
 .txt_death {
   font-size: 15px;
