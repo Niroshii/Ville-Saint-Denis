@@ -33,7 +33,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Formulaire de contact</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./images/homepage/ampoule fav.png">
   </head>
   <body>
     <div class="container">
@@ -41,8 +40,8 @@
         <div class="contact-info">
           <h3 class="title">Prenons contact !</h3>
           <p class="text">
-            Contacter la mairie de Saint Denis dès maintenant, afin d'obtenir plus de renseignements sur notre
-            magnifique ville et ses habitations disponible.
+            Contactez la mairie de Saint Denis dès maintenant, afin d'obtenir plus de renseignements sur notre
+            magnifique ville et ses habitations disponibles.
           </p>
           <div class="info">
             <div class="information">
